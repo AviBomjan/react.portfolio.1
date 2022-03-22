@@ -7,6 +7,16 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
+// DO NOT USE THE IMAGES IN PRODUCTION
+
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Crypto Currency Dashboard'
+  }
+]
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -18,49 +28,11 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/AviBomjan" className='btn' target='_blank'>Github</a>
+          <h3>The current portfolio website</h3>
+          <div className="portfolio__item-cta">
+          <a href="https://github.com/AviBomjan/react.portfolio.1" className='btn' target='_blank'>Github</a>
           <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/AviBomjan" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/AviBomjan" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/AviBomjan" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/AviBomjan" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <a href="https://github.com/AviBomjan" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
       </div>
     </section>
