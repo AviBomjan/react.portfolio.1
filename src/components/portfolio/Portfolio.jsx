@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+import IMG5 from '../../assets/portfolio5.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 // DO NOT USE THE IMAGES IN PRODUCTION
@@ -13,7 +13,44 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard'
+    title: 'Current Website',
+    github: 'https://github.com/AviBomjan/react.portfolio.1',
+    demo: 'https://dribbble.com/Alien_pixels'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Charts templates & infographics in Figma',
+    github: 'https://github.com',
+    demo: 'https://dribbble.com/Alien_pixels'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Figma dashboard UI kit for data design web apps',
+    github: '',
+    demo: ''   
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Maintaining tasks and tracking progress',
+    github: '',
+    demo: ''
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Charts templates & infographics in Figma',
+    github: '',
+    demo: ''
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Charts templates & infographics in Figma',
+    github: '',
+    demo: ''
   }
 ]
 
@@ -24,16 +61,22 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>The current portfolio website</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com/AviBomjan/react.portfolio.1" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/Alien_pixels" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
+      {
+        data.map(({id, image, title, github, demo}) => {
+          return (
+            <article key={id} className='portfolio__item'>
+            <div className='portfolio__item-image'>
+              <img src={image} alt={title} />
+            </div>
+            <h3>{title}</h3>
+            <div className="portfolio__item-cta">
+            <a href={github} className='btn' target='_blank'>Github</a>
+            <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+            </div>
+          </article>
+          )       
+        })
+      }
       </div>
     </section>
   )
