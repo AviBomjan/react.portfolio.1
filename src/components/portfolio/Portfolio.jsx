@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
+    title: 'UI kit for data design web apps',
     github: '',
     demo: ''   
   },
