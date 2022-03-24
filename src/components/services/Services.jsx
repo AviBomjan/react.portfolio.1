@@ -56,23 +56,23 @@ const Services = () => {
             </li>
             <li>
               {/* <BiCheck className='service__list-icon' /> */}
-              <p>Using scripting or authoring languages, management tools, content creation tools, applications, and digital media.</p>
+              <p>Write well designed, testable, efficient code by using best software development practices.</p>
             </li>
             <li>
               {/* <BiCheck className='service__list-icon' /> */}
-              <p>Conferring with teams to resolve conflicts, prioritize needs, develop content criteria, or choose solutions.</p>
+              <p>Integrate data from various back-end services and databases.</p>
             </li>
             <li>
               {/* <BiCheck className='service__list-icon' /> */}
-              <p>Directing or performing Website updates.</p>
+              <p>Gather and refine specifications and requirements based on technical needs</p>
             </li>
             <li>
               {/* <BiCheck className='service__list-icon' /> */}
-              <p>Developing or validating test routines and schedules to ensure that test cases mimic external interfaces and address all browser and device types.</p>
+              <p>Perform regular file backups to local directories for recovery.</p>
             </li>
             <li>
               {/* <BiCheck className='service__list-icon' /> */}
-              <p>Editing, writing, or designing Website content, and directing team members who produce content.</p>
+              <p>Stay plugged into emerging technologies/industry trends and apply them into operations and activities.</p>
             </li>
           </ul>
         </article>
@@ -112,7 +112,7 @@ const Services = () => {
             </li>
             <li>
               {/* <BiCheck className='service__list-icon' /> */}
-              <p>Update our websites as needed.</p>
+              <p>Promote content on social networks and monitor engagement.</p>
             </li>
           </ul>
         </article>
