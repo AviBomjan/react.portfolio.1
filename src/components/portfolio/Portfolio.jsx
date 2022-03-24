@@ -15,43 +15,43 @@ const data = [
     image: IMG1,
     title: 'Current Website',
     github: 'https://github.com/AviBomjan/react.portfolio.1',
-    demo: 'https://dribbble.com/Alien_pixels'
-  },
-  {
+    demo: 'http://avibomjan.com/'
+  }
+  , {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels'
+    title: 'Online Store (Currently in Development)',
+    github: 'https://github.com/AviBomjan',
+    // demo: 'https://dribbble.com/Alien_pixels'
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'UI kit for data design web apps',
-    github: '',
-    demo: ''   
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: '',
-    demo: ''
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Charts templates & infographics in Figma',
-    github: '',
-    demo: ''
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Charts templates & infographics in Figma',
-    github: '',
-    demo: ''
-  }
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: 'UI kit for data design web apps',
+  //   github: '',
+  //   demo: ''   
+  // },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Maintaining tasks and tracking progress',
+  //   github: '',
+  //   demo: ''
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'Charts templates & infographics in Figma',
+  //   github: '',
+  //   demo: ''
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Charts templates & infographics in Figma',
+  //   github: '',
+  //   demo: ''
+  // }
 ]
 
 const Portfolio = () => {

@@ -39,7 +39,7 @@ const About = () => {
 
           </div>
           <p>
-          I am a web developer with 1.5 years of work experience and a passion for a career in web and application development. I come to the industry with my skills in JavaScript (React), SQL, Python, Java, PHP, Swift and wish to learn how to utilize these alongside my soft skills, so that I can a career path.
+          I am a web developer with 1.5 years of work experience and a passion for a career in web and application development. I come to the industry with my skills in JavaScript (React), SQL, Python, Java, PHP, Swift and wish to learn how to utilize these alongside my soft skills, to strengthen my career.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

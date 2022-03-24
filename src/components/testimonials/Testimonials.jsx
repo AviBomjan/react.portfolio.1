@@ -24,24 +24,14 @@ const data = [
   avatar:AVTR2,
   name: 'Shatta Wale',
   review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores omnis maxime, aliquid exercitationem maiores quae quas voluptatem. Suscipit culpa, quod incidunt repudiandae veniam ea perferendis facilis voluptas sapiente id illum.'
-}, 
-{
-  avatar: AVTR3,
-  name: 'Kwame Despite',
-  review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores omnis maxime, aliquid exercitationem maiores quae quas voluptatem. Suscipit culpa, quod incidunt repudiandae veniam ea perferendis facilis voluptas sapiente id illum.'
-}, 
-{
-  avatar: AVTR4,
-  name: 'Nana Ama McBrown',
-  review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores omnis maxime, aliquid exercitationem maiores quae quas voluptatem. Suscipit culpa, quod incidunt repudiandae veniam ea perferendis facilis voluptas sapiente id illum.'
 }
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Review from co-workers</h5>
+      <h2>References</h2>
 
       <Swiper className="container testimonials__container"
       // install Swiper modules
